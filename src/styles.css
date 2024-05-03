@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300&display=swap");
+
+:root {
+  --mainColor: #0b0a0a;
+  --secColor: #ff0000;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  letter-spacing: 1.5px;
+  color: var(--secColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.mainColor {
+  background-color: var(--mainColor);
+}
+
+.secondaryColor {
+  background-color: var(--secColor);
+}
+
+.mainContainer {
+  min-height: 100vh;
+  margin-top: 60px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+}
+

@@ -1,0 +1,37 @@
+.inputForm .form-control {
+    border: none;
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+  }
+  
+  .inputForm .form-control::placeholder {
+    letter-spacing: 1px;
+  }
+  h2{
+    color: rgb(44, 62, 80);
+  }
+  .inputForm .form-control:focus {
+    box-shadow: none;
+  }
+  
+  label {
+    position: relative;
+    top: 0px;
+    color: var(--mainColor);
+    transition: top 550ms;
+  }
+  
+  .hideLabel {
+    top: 35px;
+  }
+  button{
+    color: white;
+    margin-right: 765px;
+    background-color: #000000;
+  }
+  button:hover{
+    background-color: #000000;
+    color: white;
+  }
+  *{
+    background-color: white;
+  }

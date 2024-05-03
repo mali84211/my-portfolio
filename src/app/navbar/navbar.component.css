@@ -1,0 +1,16 @@
+.navbar {
+    transition: padding 500ms;
+  }
+  
+  .nav-link {
+    color:white;
+    font-weight: 400;
+    font-size: 1.125rem;
+  }
+  
+  .active-link {
+    background-color: var(--mainColor);
+    color: #fff;
+    border-radius: 100px;
+    font-weight: bold;
+  }
